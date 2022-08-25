@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: black;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+}
+
+header a {
+	text-decoration: none;
+	color: white;
+}
+
+header {
+	width: 1048.500px;
+	display: grid;
+	grid-template-columns: 1fr 4fr 1fr;
+	position: fixed;
+	z-index: 2;
+	left: 50%;
+	margin-left: -524.250px;
+	top: 15px;
+}
+
+header div.logo {
+	width: 135px;
+	line-height: 16px;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'EB Garamond', serif;
+}
+
+header div.logo a h3, p {
+	margin: 0;
+	text-align: center;
+}
+
+p {
+	color: #aaa;
+}
+
+header div.logo a h3 {
+	letter-spacing: 5px;
+}
+
+header nav a {
+	padding: 0 30px;
+}
+
+header nav {
+	width: 723px;
+	height: 18px;
+	margin: auto;
+}
+/*change this according to pictures color*/
+header nav a.active {
+	color: #B9AA87;
+	text-decoration: underline;
+}
+
+header a.phone {
+	margin: auto;
+	font-family: 'EB Garamond', serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+div.intro {
+	position: relative;
+	top: 0;
+}
+
+div.intro div.overley {
+	background-color: #000;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	opacity: 0.4;
+}
+
+div.intro div.content {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	margin-left: -288.3515px;
+	text-align: center;
+	line-height: 70px;
+}
+
+div.intro div.content h1 {
+	font-size: 100px;
+	letter-spacing: 5px;
+}
+
+div.intro div.content button {
+	padding: 15px 80px;
+	margin-top: 50px;
+	font-size: 20px;
+	background-color: #B9AA87;
+}
